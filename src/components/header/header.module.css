@@ -2,17 +2,23 @@
 	position: absolute;
 	top: 20px;
 	width: 1440px;
-	display: grid;
-	grid-template-columns: 302px 1fr 302px;
+	display: flex;
 	align-items: center;
-	justify-items: center;
 	padding: 7px 0;
 	z-index: 10;
+}
+.container > img {
+	margin-left: 60px;
+}
+.container > nav {
+	margin-left: 223px;
 }
 .right__block {
 	height: 100%;
 	display: flex;
 	align-items: center;
+	justify-self: end;
 	column-gap: 40px;
+	margin-left: auto;
 	padding-right: 60px;
 }

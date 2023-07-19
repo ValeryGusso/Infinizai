@@ -2,19 +2,9 @@ import { FC } from 'react';
 import cls from './frame3.module.css';
 import Future from '../UI/future/future';
 import image1 from '../../assets/img/frame3_img1.png';
-import image2 from '../../assets/img/frame3_img2.png';
-import image3 from '../../assets/img/frame3_img3.png';
-import image4 from '../../assets/img/frame3_img4.png';
-import image5 from '../../assets/img/frame3_img5.png';
 import Card from './card/card';
 import Button from '../UI/button/button';
-
-const cards = [
-	{ img: image2, alt: 'gamer', date: 'April 2, 2021', description: 'NAVI reveals s1mple fifth anniversary' },
-	{ img: image3, alt: 'PC', date: 'April 2, 2021', description: 'A1esports Shares new picture' },
-	{ img: image4, alt: 'keyboard', date: 'April 2, 2021', description: 'T1 unveil partnership with Razer' },
-	{ img: image5, alt: 'headphones', date: 'April 2, 2021', description: 'RX secures content partnership with' },
-];
+import { cards } from '../../assets/constants';
 
 const Frame3: FC = () => {
 	return (

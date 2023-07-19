@@ -62,12 +62,21 @@
 }
 .socials {
 	position: absolute;
-	display: grid;
-	grid-template-columns: 130px 127px 113px;
-	justify-items: flex-start;
+	display: flex;
 	bottom: 380px;
-	left: -155px;
+	left: -146px;
 	transform: rotate(-90deg) translateX(50%);
+}
+.socials > li:nth-child(2) {
+	width: 81px;
+}
+.socials > li:nth-child(2) {
+	width: 105px;
+	margin-left: 49px;
+}
+.socials > li:nth-child(3) {
+	width: 113px;
+	margin-left: 22px;
 }
 .socials > li > a {
 	color: #80858f;
@@ -88,7 +97,7 @@
 .right__block > img {
 	position: absolute;
 	top: 296px;
-	right: 34px;
+	right: 60px;
 	width: 660px;
 	height: 518px;
 }
