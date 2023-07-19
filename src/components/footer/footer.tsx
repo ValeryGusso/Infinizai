@@ -21,7 +21,7 @@ const Footer: FC = () => {
 	return (
 		<div className={cls.container}>
 			<div>
-				<img src={logo} alt="logo" />
+				<img src={logo} alt="logo" draggable={false} />
 				<p className={cls.text}>
 					Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc quam ac sed turpis volutpat. Cursus sed
 					massa non .

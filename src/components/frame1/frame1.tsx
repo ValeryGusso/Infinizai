@@ -36,7 +36,7 @@ const Frame1: FC = () => {
 					neque.
 				</p>
 				<div className={cls.footer}>
-					<Button text="Explore More" type="fill" />
+					<Button text="Explore More" type="fill" width={203} />
 					<p>View our team</p>
 				</div>
 				<ul className={cls.socials}>
@@ -52,7 +52,7 @@ const Frame1: FC = () => {
 				</ul>
 			</div>
 			<div className={cls.right__block}>
-				<img src={image1} alt="game character" />
+				<img src={image1} alt="game character" draggable={false} />
 			</div>
 		</div>
 	);

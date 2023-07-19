@@ -15,7 +15,7 @@ interface CardProps {
 const Card: FC<CardProps> = ({ card }) => {
 	return (
 		<div className={cls.container}>
-			<img src={card.img} alt={card.alt} />
+			<img src={card.img} alt={card.alt} draggable={false} />
 			<p className={cls.date}>{card.date}</p>
 			<p className={cls.description}>{card.description}</p>
 		</div>

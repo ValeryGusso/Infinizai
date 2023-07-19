@@ -24,11 +24,11 @@ const Frame3: FC = () => {
 					<Future />
 					<p className={cls.text__main}>Latest News & Articles</p>
 				</div>
-				<Button text="Read More" type="fill" />
+				<Button text="Read More" type="fill" width={175} />
 			</div>
 			<div className={cls.content}>
 				<div className={cls.left__block}>
-					<img src={image1} alt="gamepad" />
+					<img src={image1} alt="gamepad" draggable={false} />
 					<p className={cls.date}>April 2, 2021</p>
 					<p className={cls.description}>Esports Group teams up with the Indianapolis Colts</p>
 				</div>

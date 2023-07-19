@@ -6,13 +6,13 @@ import Header from './components/header/header';
 
 function App() {
 	return (
-		<div>
+		<>
 			<Header />
 			<Frame1 />
 			<Frame2 />
 			<Frame3 />
 			<Footer />
-		</div>
+		</>
 	);
 }
 

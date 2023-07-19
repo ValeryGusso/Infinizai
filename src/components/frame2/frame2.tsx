@@ -10,7 +10,7 @@ const Frame2: FC = () => {
 	return (
 		<div className={cls.container}>
 			<div className={cls.left__block}>
-				<img src={image1} alt="game character" />
+				<img src={image1} alt="game character" draggable={false} />
 			</div>
 			<div className={cls.right__block}>
 				<Future />
@@ -21,13 +21,13 @@ const Frame2: FC = () => {
 				</p>
 				<ul className={cls.images}>
 					<li className={cls.active}>
-						<img src={image2} alt="game character" />
+						<img src={image2} alt="game character" draggable={false} />
 					</li>
 					<li>
-						<img src={image3} alt="game character" />
+						<img src={image3} alt="game character" draggable={false} />
 					</li>
 					<li>
-						<img src={image4} alt="game character" />
+						<img src={image4} alt="game character" draggable={false} />
 					</li>
 				</ul>
 			</div>

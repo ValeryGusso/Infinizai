@@ -16,11 +16,11 @@ const navigation = [
 const Header: FC = () => {
 	return (
 		<header className={cls.container}>
-			<img src={logo} alt="logo" />
+			<img src={logo} alt="logo" draggable={false} />
 			<Navigation items={navigation} />
 			<div className={cls.right__block}>
 				<Cart />
-				<Button text="Contact Us" type="transparent" />
+				<Button text="Contact Us" type="transparent" width={178} />
 			</div>
 		</header>
 	);

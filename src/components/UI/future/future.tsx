@@ -5,7 +5,7 @@ import flame from '../../../assets/img/flame.svg';
 const Future: FC = () => {
 	return (
 		<div className={cls.container}>
-			<img src={flame} alt="flame" />
+			<img src={flame} alt="flame" draggable={false} />
 			<p>FUTURE OF eSPORTS</p>
 		</div>
 	);

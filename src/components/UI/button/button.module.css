@@ -1,5 +1,5 @@
 .button {
-	width: 178px;
+	width: var(--w);
 	height: 62px;
 	flex-shrink: 0;
 	color: #fff;
