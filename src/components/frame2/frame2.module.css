@@ -1,0 +1,58 @@
+.container {
+	width: 1440px;
+	display: flex;
+	column-gap: 128px;
+	/* padding: 0 60px; */
+	background-color: #2a313c;
+}
+.left__block {
+	width: 596px;
+	padding-left: 60px;
+}
+
+/* RIGHT */
+.right__block {
+	width: 596px;
+	padding-top: 90px;
+}
+.text__main {
+	padding-top: 22px;
+	color: #fff;
+	font-family: Orbitron;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 74px;
+	text-transform: capitalize;
+}
+.text__second {
+	padding-top: 36px;
+	color: rgba(223, 223, 223, 0.8);
+	font-family: Orbitron;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+.images {
+	display: flex;
+	column-gap: 30px;
+	list-style: none;
+	padding-top: 65px;
+	padding-left: 11px;
+}
+.images > li {
+	position: relative;
+	z-index: 1;
+}
+.active::before {
+	content: '';
+	position: absolute;
+	top: -11px;
+	left: -11px;
+	width: 196px;
+	height: 125px;
+	border-radius: 20px;
+	background: #3b3d46;
+	z-index: -1;
+}

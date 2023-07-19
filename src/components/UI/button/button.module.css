@@ -1,0 +1,22 @@
+.button {
+	width: 178px;
+	height: 62px;
+	flex-shrink: 0;
+	color: #fff;
+	font-family: Orbitron;
+	background-color: transparent;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	border: 1px solid #fff;
+	outline: none;
+	cursor: pointer;
+}
+.fill {
+	color: #fff;
+	line-height: 28px;
+	text-transform: capitalize;
+	background-color: #57b8ff;
+	border: none;
+}

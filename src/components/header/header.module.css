@@ -1,0 +1,18 @@
+.container {
+	position: absolute;
+	top: 20px;
+	width: 1440px;
+	display: grid;
+	grid-template-columns: 302px 1fr 302px;
+	align-items: center;
+	justify-items: center;
+	padding: 7px 0;
+	z-index: 10;
+}
+.right__block {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	column-gap: 40px;
+	padding-right: 60px;
+}

@@ -1,0 +1,22 @@
+.container {
+	width: fit-content;
+	position: relative;
+	cursor: pointer;
+}
+.counter {
+	position: absolute;
+	top: -8px;
+	right: -20px;
+	width: 21px;
+	height: 18px;
+	flex-shrink: 0;
+	border-radius: 9px;
+	background: #fff;
+	color: #141820;
+	font-family: Orbitron;
+	text-align: center;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18px;
+}
